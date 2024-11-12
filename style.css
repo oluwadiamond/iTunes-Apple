@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+    width: 130ch;
+}
+a{
+    text-decoration: none;
+}
+
+.top-logo{
+    width: 30px;
+}
+.top-logos{
+    width: 16px;
+}
+.apple-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 69%;
+    justify-self: center;
+    margin: 8px 0;
+}
+.unordered-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 12px;
+}
+.itunes-logo{
+    margin: 7% 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.iTunes{
+    margin: 10px 0 16px;
+    font-size: 30px;
+}
+.microsoftStore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 69%;
+    justify-self: center;
+    margin: 8px 0 0;
+    flex-direction: column;
+}
+.heading{
+    direction: flex; 
+    flex-wrap: wrap; 
+    text-align: center; 
+    font-size: 60px;
+    margin: 0;
+}
+.entertainmentApp{
+    direction: flex;
+    flex-wrap: wrap;
+    line-height: 1.4;
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0 50px;
+} 
+.microsoftLogo{
+    margin: 8px 0 50px;
+}
+.laptop{
+    width: 90%;
+}
+.keyline span {
+    display: inline-block;
+    position: relative;
+}
+.keyline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-link{
+    color: #06c;
+    border: 0;
+    background: none;
+    box-sizing: content-box;
+    cursor: pointer;
+    line-height: inherit;
+    vertical-align: inherit;
+    margin: 50px;
+    font-size: 22px;
+}
+.button-link::after{
+    content:  ;
+
+}
