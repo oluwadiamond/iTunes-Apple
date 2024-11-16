@@ -1,36 +1,164 @@
 *{
     margin: 0;
-    padding: 0;
     font-family: sans-serif;
-}
+ }
 
 ul{
     list-style: none;
-    width: 130ch;
+    padding: 0;
+    width: 125ch;
+
 }
 a{
     text-decoration: none;
+    color: black;
 }
-
 .top-logo{
-    width: 30px;
+    width: 1.2em;
 }
 .top-logos{
     width: 16px;
 }
 .apple-header{
+    width: 67%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 69%;
     justify-self: center;
     margin: 8px 0;
 }
+.greyColor{
+    color: grey;
+}
 .unordered-list{
+     display: flex;
+   justify-content: space-between;
+    margin: 0;
+    font-size: 12px;
+}
+.store:hover .dropDown{
+    visibility: visible;
+}
+.mac:hover .dropDown1{
+    visibility: visible;
+}
+.iPad:hover .dropDown2{
+    visibility: visible;
+}
+.iPhone:hover .dropDown3{
+    visibility: visible;
+}
+.dropDown{
+     visibility: hidden; 
+    width: 95rem;
+    height: 25rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 2rem;
+    right: 0rem;
+    box-shadow: 0px 300px 10px rgba(225, 224, 224, 0.98);
+}
+.dropDown > div{
     display: flex;
     justify-content: space-between;
-    align-items: start;
-    font-size: 12px;
+    width: 45%;
+    padding: 2.2rem 12rem ;
+}
+
+.dropDown1{
+    visibility: hidden; 
+   width: 95rem;
+   height: 30rem;
+   background-color: rgb(255, 255, 255);
+   position: absolute;
+   top: 2rem;
+   right: 0rem;
+   box-shadow: 0px 300px 10px rgba(225, 224, 224, 0.98);
+    
+}
+.dropDown1 > div{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    padding: 2.2rem 12rem ;
+}
+.dropDown2{
+    visibility: hidden; 
+   width: 95rem;
+   height: 30rem;
+   background-color: rgb(255, 255, 255);
+   position: absolute;
+   top: 2rem;
+   right: 0rem;
+   box-shadow: 0px 300px 10px rgba(225, 224, 224, 0.98);
+
+}
+.dropDown2 > div{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    padding: 2.2rem 12rem ;
+}
+.dropDown3{
+    visibility: hidden; 
+   width: 95rem;
+   height: 30rem;
+   background-color: rgb(255, 255, 255);
+   position: absolute;
+   top: 2rem;
+   right: 0rem;
+   box-shadow: 0px 300px 10px rgba(225, 224, 224, 0.98);
+}
+.dropDown3 > div{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    padding: 2.2rem 15rem ;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+.Explore{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+
+}
+.Explore > div{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    padding-bottom: 1rem;
+}
+.ExploreIpad{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+.ExploreIpad > div{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    padding-bottom: 1rem;
+}
+.ExploreIphone{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+.ExploreIphone > div{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    padding-bottom: 1rem;
+}
+
+.quickLink{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
 }
 .itunes-logo{
     margin: 7% 0 0;
@@ -83,6 +211,7 @@ a{
     align-items: center;
 }
 .button-link{
+    background-color: white;
     color: #06c;
     border: 0;
     background: none;
@@ -90,10 +219,135 @@ a{
     cursor: pointer;
     line-height: inherit;
     vertical-align: inherit;
-    margin: 50px;
-    font-size: 22px;
+    margin: 50px 10px;
+    font-size: 16px;
 }
-.button-link::after{
-    content:  ;
+.OS::after{
+    content: " >";
+    font-size: 1.2rem;
+}
+.lineButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 300px;
+    height: 1px;
+    background-color: grey;
+}
+.add{
+    width: 20px;
+    margin: 0 15px 0 0;
+}
+.OS{
+    color: #06c;
+    margin: 0 0.5em;
+}
+ .otherVersion{
+    margin: 2em 17em;
+}
+.lookingOtherVersion{
+    font-weight: 600;
 
 }
+.support{
+    display: flex;
+}
+.support{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30em;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+}
+.getHelp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer{
+    background-color: rgb(243, 243, 243);
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column; 
+    padding: 0.9em 15rem;
+}
+ol{
+    list-style: decimal;
+    line-height: 2;
+    font-size: 0.96em;
+    color: rgba(0, 0, 0, 0.582);
+}
+.lines{
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.23);
+    margin: 1em;
+    
+}
+.footerIcon{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.726);
+    margin-left: 1.5em;
+    font-size: 0.8em;
+}
+.greaterThan{
+    margin: 0 0.8em;
+}
+.greaterThan::before{
+    content: ">";
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.455);
+}
+.appleFooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.1rem 2em;
+}
+.shopLearn{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.23;
+    margin-top: 1.6em;
+    font-size: 0.8em;
+}
+.shopLearn > a{
+    color: rgba(0, 0, 0, 0.7);
+}
+.shopLearn > h3{
+    color: rgba(0, 0, 0, 0.801);
+}
+.shopLearnAppleWallet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blueText{
+    color: #06c;
+    text-decoration: underline;
+}
+.bottomFooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.1rem;
+}
+.privacy{
+    display: flex;
+}
+.privacyPolicy{
+    margin: 0 2em;
+    font-size: 0.9em;
+}
+.legal{
+    color: rgba(0, 0, 0, 0.707);
+}
+.legal::before{
+    font-size: 1.3em;
+    content: "  | ";
+}
+
+
+
+@media screen and (max-width:800px){}
